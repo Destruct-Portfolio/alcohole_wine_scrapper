@@ -1,7 +1,7 @@
 # Alcohole Scraper
 
 ## Description
-a webscraper that scrapes wine products that from 3 defrent websites and exports everything into a csv file. this project will gives you a long list of articles following the same format product_name, product_url, product_price, product_image. 
+a webscraper that scrapes wine products that from 3 websites and exports everything into a csv file. this project will gives you a long list of articles following the same format product_name, product_url, product_price, product_image. 
 the websites are protected by cloudflare protection but we were able to bypass it easly using few packages we use and love.
 
 ### Installing
