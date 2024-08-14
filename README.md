@@ -1,13 +1,8 @@
 # Alcohole Scraper
 
-a scraper to scrape 3 links to and save into JSON and MSSQL DB
-
 ## Description
-
-as we have said before in order to pass the captcha we had to use an other way than the 2captchakey so we have use privacy pass
-and an npm package called privacy pass redeemer
-we have supplied you with 90 tokens allready and in order to get those tokens we will provide you with a video on how easly
-get them.
+a webscraper that scrapes wine products that from 3 defrent websites and exports everything into a csv file. this project will gives you a long list of articles following the same format product_name, product_url, product_price, product_image. 
+the websites are protected by cloudflare protection but we were able to bypass it easly using few packages we use and love.
 
 ### Installing
 
@@ -28,8 +23,6 @@ If you need to stop the bot at any point, you can do so without worry. When you 
 To change the links, use the config.json file. You can modify the links inside the array to any product on the website, and the bot will still function correctly.
 
 The tokens are divided by 100 to avoid potential issues with Cloudflare.
-
-Finally, if you encounter an error, it may be due to a version issue. Be sure to run the script with Node v18.15.0, or else you risk breaking the application due to a library compatibility issue.
 
 you will see in the terminal each link being scraped in this manner because we need to keep track
 
